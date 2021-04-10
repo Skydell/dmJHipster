@@ -1,0 +1,31 @@
+{
+  "dmJHipsterApp": {
+    "compte": {
+      "home": {
+        "title": "Comptes",
+        "createLabel": "Genera un nuovo Compte",
+        "createOrEditLabel": "Genera o modifica un Compte",
+        "notFound": "No Comptes found"
+      },
+      "created": "&Egrave; stato generato un nuovo Compte con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Compte identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Compte con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Compte {{ id }}?"
+      },
+      "detail": {
+        "title": "Compte"
+      },
+      "name": "Name",
+      "surname": "Surname",
+      "age": "Age",
+      "accountid": "Accountid",
+      "adress": "Adress",
+      "role": "Role",
+      "panier": "Panier",
+      "restaurant": "Restaurant",
+      "course": "Course",
+      "systemePaiement": "Systeme Paiement"
+    }
+  }
+}

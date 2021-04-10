@@ -1,0 +1,31 @@
+{
+  "dmJHipsterApp": {
+    "compte": {
+      "home": {
+        "title": "Comptes",
+        "createLabel": "Compte を追加",
+        "createOrEditLabel": "Compteを追加または編集",
+        "notFound": "No Comptes found"
+      },
+      "created": "A new Compte is created with identifier {{ param }}",
+      "updated": "A Compte is updated with identifier {{ param }}",
+      "deleted": "A Compte is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Compte {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Compte"
+      },
+      "name": "Name",
+      "surname": "Surname",
+      "age": "Age",
+      "accountid": "Accountid",
+      "adress": "Adress",
+      "role": "Role",
+      "panier": "Panier",
+      "restaurant": "Restaurant",
+      "course": "Course",
+      "systemePaiement": "Systeme Paiement"
+    }
+  }
+}

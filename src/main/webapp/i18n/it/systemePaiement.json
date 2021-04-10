@@ -1,0 +1,25 @@
+{
+  "dmJHipsterApp": {
+    "systemePaiement": {
+      "home": {
+        "title": "SystemePaiements",
+        "createLabel": "Genera un nuovo Systeme Paiement",
+        "createOrEditLabel": "Genera o modifica un Systeme Paiement",
+        "notFound": "No Systeme Paiements found"
+      },
+      "created": "&Egrave; stato generato un nuovo Systeme Paiement con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Systeme Paiement identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Systeme Paiement con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Systeme Paiement {{ id }}?"
+      },
+      "detail": {
+        "title": "Systeme Paiement"
+      },
+      "crediteur": "Crediteur",
+      "debiteur": "Debiteur",
+      "methode": "Methode",
+      "compte": "Compte"
+    }
+  }
+}

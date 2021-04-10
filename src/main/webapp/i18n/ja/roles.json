@@ -1,0 +1,22 @@
+{
+  "dmJHipsterApp": {
+    "roles": {
+      "home": {
+        "title": "Roles",
+        "createLabel": "Roles を追加",
+        "createOrEditLabel": "Rolesを追加または編集",
+        "notFound": "No Roles found"
+      },
+      "created": "A new Roles is created with identifier {{ param }}",
+      "updated": "A Roles is updated with identifier {{ param }}",
+      "deleted": "A Roles is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Roles {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Roles"
+      },
+      "role": "Role"
+    }
+  }
+}

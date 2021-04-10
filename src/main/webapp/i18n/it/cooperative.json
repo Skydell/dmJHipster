@@ -1,0 +1,24 @@
+{
+  "dmJHipsterApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "createLabel": "Genera un nuovo Cooperative",
+        "createOrEditLabel": "Genera o modifica un Cooperative",
+        "notFound": "No Cooperatives found"
+      },
+      "created": "&Egrave; stato generato un nuovo Cooperative con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Cooperative identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Cooperative con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Cooperative {{ id }}?"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "name": "Name",
+      "members": "Members",
+      "restaurant": "Restaurant"
+    }
+  }
+}

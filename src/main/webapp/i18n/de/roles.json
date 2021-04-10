@@ -1,0 +1,22 @@
+{
+  "dmJHipsterApp": {
+    "roles": {
+      "home": {
+        "title": "Roles",
+        "createLabel": "Roles erstellen",
+        "createOrEditLabel": "Roles erstellen oder bearbeiten",
+        "notFound": "No Roles found"
+      },
+      "created": "Roles erstellt mit ID {{ param }}",
+      "updated": "Roles aktualisiert mit ID {{ param }}",
+      "deleted": "Roles gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Roles {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Roles"
+      },
+      "role": "Role"
+    }
+  }
+}

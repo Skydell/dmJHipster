@@ -1,0 +1,31 @@
+{
+  "dmJHipsterApp": {
+    "compte": {
+      "home": {
+        "title": "Comptes",
+        "createLabel": "Compte erstellen",
+        "createOrEditLabel": "Compte erstellen oder bearbeiten",
+        "notFound": "No Comptes found"
+      },
+      "created": "Compte erstellt mit ID {{ param }}",
+      "updated": "Compte aktualisiert mit ID {{ param }}",
+      "deleted": "Compte gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Compte {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Compte"
+      },
+      "name": "Name",
+      "surname": "Surname",
+      "age": "Age",
+      "accountid": "Accountid",
+      "adress": "Adress",
+      "role": "Role",
+      "panier": "Panier",
+      "restaurant": "Restaurant",
+      "course": "Course",
+      "systemePaiement": "Systeme Paiement"
+    }
+  }
+}

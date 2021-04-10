@@ -1,0 +1,25 @@
+{
+  "dmJHipsterApp": {
+    "systemePaiement": {
+      "home": {
+        "title": "Systeme Paiements",
+        "createLabel": "Systeme Paiement erstellen",
+        "createOrEditLabel": "Systeme Paiement erstellen oder bearbeiten",
+        "notFound": "No Systeme Paiements found"
+      },
+      "created": "Systeme Paiement erstellt mit ID {{ param }}",
+      "updated": "Systeme Paiement aktualisiert mit ID {{ param }}",
+      "deleted": "Systeme Paiement gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Systeme Paiement {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Systeme Paiement"
+      },
+      "crediteur": "Crediteur",
+      "debiteur": "Debiteur",
+      "methode": "Methode",
+      "compte": "Compte"
+    }
+  }
+}

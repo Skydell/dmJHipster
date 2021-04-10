@@ -1,0 +1,29 @@
+{
+  "dmJHipsterApp": {
+    "restaurant": {
+      "home": {
+        "title": "Restaurants",
+        "createLabel": "Restaurant を追加",
+        "createOrEditLabel": "Restaurantを追加または編集",
+        "notFound": "No Restaurants found"
+      },
+      "created": "A new Restaurant is created with identifier {{ param }}",
+      "updated": "A Restaurant is updated with identifier {{ param }}",
+      "deleted": "A Restaurant is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Restaurant {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Restaurant"
+      },
+      "name": "Name",
+      "adress": "Adress",
+      "products": "Products",
+      "compte": "Compte",
+      "produit": "Produit",
+      "course": "Course",
+      "cooperative": "Cooperative",
+      "panier": "Panier"
+    }
+  }
+}

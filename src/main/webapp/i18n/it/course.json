@@ -1,0 +1,27 @@
+{
+  "dmJHipsterApp": {
+    "course": {
+      "home": {
+        "title": "Courses",
+        "createLabel": "Genera un nuovo Course",
+        "createOrEditLabel": "Genera o modifica un Course",
+        "notFound": "No Courses found"
+      },
+      "created": "&Egrave; stato generato un nuovo Course con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Course identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Course con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Course {{ id }}?"
+      },
+      "detail": {
+        "title": "Course"
+      },
+      "clientname": "Clientname",
+      "coursiername": "Coursiername",
+      "timerequired": "Timerequired",
+      "panier": "Panier",
+      "compte": "Compte",
+      "restaurant": "Restaurant"
+    }
+  }
+}

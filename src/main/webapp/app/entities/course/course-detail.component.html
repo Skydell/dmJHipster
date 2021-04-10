@@ -1,0 +1,56 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="course">
+            <h2><span jhiTranslate="dmJHipsterApp.course.detail.title">Course</span> {{ course.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="dmJHipsterApp.course.clientname">Clientname</span></dt>
+                <dd>
+                    <span>{{ course.clientname }}</span>
+                </dd>
+                <dt><span jhiTranslate="dmJHipsterApp.course.coursiername">Coursiername</span></dt>
+                <dd>
+                    <span>{{ course.coursiername }}</span>
+                </dd>
+                <dt><span jhiTranslate="dmJHipsterApp.course.timerequired">Timerequired</span></dt>
+                <dd>
+                    <span>{{ course.timerequired }}</span>
+                </dd>
+                <dt><span jhiTranslate="dmJHipsterApp.course.panier">Panier</span></dt>
+                <dd>
+                    <div *ngIf="course.panier">
+                        <a [routerLink]="['/panier', course.panier?.id, 'view']">{{ course.panier?.id }}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="dmJHipsterApp.course.compte">Compte</span></dt>
+                <dd>
+                    <div *ngIf="course.compte">
+                        <a [routerLink]="['/compte', course.compte?.id, 'view']">{{ course.compte?.id }}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="dmJHipsterApp.course.restaurant">Restaurant</span></dt>
+                <dd>
+                    <div *ngIf="course.restaurant">
+                        <a [routerLink]="['/restaurant', course.restaurant?.id, 'view']">{{ course.restaurant?.id }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/course', course.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

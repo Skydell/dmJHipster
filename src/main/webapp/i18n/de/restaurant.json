@@ -1,0 +1,29 @@
+{
+  "dmJHipsterApp": {
+    "restaurant": {
+      "home": {
+        "title": "Restaurants",
+        "createLabel": "Restaurant erstellen",
+        "createOrEditLabel": "Restaurant erstellen oder bearbeiten",
+        "notFound": "No Restaurants found"
+      },
+      "created": "Restaurant erstellt mit ID {{ param }}",
+      "updated": "Restaurant aktualisiert mit ID {{ param }}",
+      "deleted": "Restaurant gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Restaurant {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Restaurant"
+      },
+      "name": "Name",
+      "adress": "Adress",
+      "products": "Products",
+      "compte": "Compte",
+      "produit": "Produit",
+      "course": "Course",
+      "cooperative": "Cooperative",
+      "panier": "Panier"
+    }
+  }
+}

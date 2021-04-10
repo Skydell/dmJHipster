@@ -1,0 +1,28 @@
+{
+  "dmJHipsterApp": {
+    "panier": {
+      "home": {
+        "title": "Paniers",
+        "createLabel": "Panier erstellen",
+        "createOrEditLabel": "Panier erstellen oder bearbeiten",
+        "notFound": "No Paniers found"
+      },
+      "created": "Panier erstellt mit ID {{ param }}",
+      "updated": "Panier aktualisiert mit ID {{ param }}",
+      "deleted": "Panier gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Panier {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Panier"
+      },
+      "nbelements": "Nbelements",
+      "listelements": "Listelements",
+      "price": "Price",
+      "restaurant": "Restaurant",
+      "produit": "Produit",
+      "course": "Course",
+      "compte": "Compte"
+    }
+  }
+}

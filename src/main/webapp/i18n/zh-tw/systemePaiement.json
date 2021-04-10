@@ -1,0 +1,25 @@
+{
+  "dmJHipsterApp": {
+    "systemePaiement": {
+      "home": {
+        "title": "Systeme Paiements",
+        "createLabel": "建立一筆新的 Systeme Paiement",
+        "createOrEditLabel": "建立或編輯 Systeme Paiement",
+        "notFound": "No Systeme Paiements found"
+      },
+      "created": "新的 Systeme Paiement 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Systeme Paiement 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Systeme Paiement 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Systeme Paiement {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Systeme Paiement"
+      },
+      "crediteur": "Crediteur",
+      "debiteur": "Debiteur",
+      "methode": "Methode",
+      "compte": "Compte"
+    }
+  }
+}

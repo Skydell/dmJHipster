@@ -1,0 +1,70 @@
+entity Roles {
+    role String minlength(1) required
+}
+
+entity Compte {
+    name String required
+    surname String required
+    age Integer min(0) max(150)
+    accountid String maxlength(16) required
+    adress String required
+    role String required
+}
+
+entity Produit {
+    name String required
+    price Integer min(0) required 
+    quantity Integer min(0) required
+}
+
+entity Panier {
+    nbelements Integer required
+    listelements String
+    price Integer required
+}
+
+entity Restaurant {
+    name String required
+    adress String required
+    products String
+}
+
+entity Course {
+    clientname String required
+    coursiername String required
+    timerequired Integer required
+}
+
+entity SystemePaiement {
+    crediteur String required
+    debiteur String required
+    methode String required
+}
+
+entity Cooperative {
+    name String required
+    members String
+}
+
+relationship OneToOne {
+    Course to Panier
+    Restaurant to Compte
+    Course to Compte
+    Course to Compte
+}
+
+
+relationship OneToMany {
+    Restaurant to Produit
+    Restaurant to Course
+    Compte to Panier
+    Cooperative to Restaurant
+}
+
+relationship ManyToMany {
+    Panier to Restaurant
+    SystemePaiement to Compte
+    Panier to Produit
+}
+
+dto Compte, Roles with mapstruct

@@ -1,0 +1,22 @@
+{
+  "dmJHipsterApp": {
+    "roles": {
+      "home": {
+        "title": "Roles",
+        "createLabel": "Genera un nuovo Roles",
+        "createOrEditLabel": "Genera o modifica un Roles",
+        "notFound": "No Roles found"
+      },
+      "created": "&Egrave; stato generato un nuovo Roles con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Roles identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Roles con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Roles {{ id }}?"
+      },
+      "detail": {
+        "title": "Roles"
+      },
+      "role": "Role"
+    }
+  }
+}

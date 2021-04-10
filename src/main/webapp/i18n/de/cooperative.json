@@ -1,0 +1,24 @@
+{
+  "dmJHipsterApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "createLabel": "Cooperative erstellen",
+        "createOrEditLabel": "Cooperative erstellen oder bearbeiten",
+        "notFound": "No Cooperatives found"
+      },
+      "created": "Cooperative erstellt mit ID {{ param }}",
+      "updated": "Cooperative aktualisiert mit ID {{ param }}",
+      "deleted": "Cooperative gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Cooperative {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "name": "Name",
+      "members": "Members",
+      "restaurant": "Restaurant"
+    }
+  }
+}

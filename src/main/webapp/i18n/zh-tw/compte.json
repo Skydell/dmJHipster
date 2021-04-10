@@ -1,0 +1,31 @@
+{
+  "dmJHipsterApp": {
+    "compte": {
+      "home": {
+        "title": "Comptes",
+        "createLabel": "建立一筆新的 Compte",
+        "createOrEditLabel": "建立或編輯 Compte",
+        "notFound": "No Comptes found"
+      },
+      "created": "新的 Compte 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Compte 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Compte 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Compte {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Compte"
+      },
+      "name": "Name",
+      "surname": "Surname",
+      "age": "Age",
+      "accountid": "Accountid",
+      "adress": "Adress",
+      "role": "Role",
+      "panier": "Panier",
+      "restaurant": "Restaurant",
+      "course": "Course",
+      "systemePaiement": "Systeme Paiement"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "dmJHipsterApp": {
+    "systemePaiement": {
+      "home": {
+        "title": "SystemePaiements",
+        "createLabel": "Systeme Paiement を追加",
+        "createOrEditLabel": "Systeme Paiementを追加または編集",
+        "notFound": "No Systeme Paiements found"
+      },
+      "created": "A new Systeme Paiement is created with identifier {{ param }}",
+      "updated": "A Systeme Paiement is updated with identifier {{ param }}",
+      "deleted": "A Systeme Paiement is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Systeme Paiement {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Systeme Paiement"
+      },
+      "crediteur": "Crediteur",
+      "debiteur": "Debiteur",
+      "methode": "Methode",
+      "compte": "Compte"
+    }
+  }
+}

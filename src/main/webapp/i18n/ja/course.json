@@ -1,0 +1,27 @@
+{
+  "dmJHipsterApp": {
+    "course": {
+      "home": {
+        "title": "Courses",
+        "createLabel": "Course を追加",
+        "createOrEditLabel": "Courseを追加または編集",
+        "notFound": "No Courses found"
+      },
+      "created": "A new Course is created with identifier {{ param }}",
+      "updated": "A Course is updated with identifier {{ param }}",
+      "deleted": "A Course is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Course {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Course"
+      },
+      "clientname": "Clientname",
+      "coursiername": "Coursiername",
+      "timerequired": "Timerequired",
+      "panier": "Panier",
+      "compte": "Compte",
+      "restaurant": "Restaurant"
+    }
+  }
+}
